@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://www.rikkyo.ac.jp/christmas/qo9edr000000gbr5-img/qo9edr000000gbtl.jpg");
+  background-image: url("IMG_2699 (002).jpg");
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -9,7 +9,7 @@ body {
 }
 
 .portforio {
-  height: 80vh;
+  height: 90vh;
   width: 80vw;
   border-radius: 40vw / 40vh;
   background-color: rgba(255, 255, 255, 0.7);
@@ -40,30 +40,69 @@ body {
   font-size: 6vmin;
 }
 
+.portforio_exeuclid {
+  border: solid 1px rgb(0, 0, 0);
+  /* height: 20vmin;
+  width: 25vw; */
+  margin-top: 5vmin;
+  padding: 1vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.portforio_exeuclid_title {
+  align-self: center;
+  font-size: 3vmin;
+}
+
+.portforio_exeuclid_calculator {
+  display: flex;
+  justify-content: space-around;
+  padding: 1vmin;
+}
+
+.portforio_exeuclid_calculator_element {
+  display: flex;
+  justify-content: space-around;
+  padding: 1vmin;
+}
+
+.portforio_exeuclid_result {
+  align-self: center;
+  font-size: 3vmin;
+}
+
 .portforio_exeuclid_calculator_display {
   height: 2em;
-  width: 20%;
+  width: 70%;
   padding: 4px;
   background-color: white;
   border-radius: 4px;
-  box-shadow: 0 1px 0 #ccc;
+  box-shadow: 0 1px 0 black;
   font-size: 1em;
   border-width: 0px;
-}
-.portforio_exeuclid_calculator_display:focus {
-  outline: 0;
 }
 
 .portforio_exeuclid_result_display {
   height: 2em;
-  width: 30%;
+  width: 70%;
   padding: 4px;
   background-color: white;
   border-radius: 4px;
-  box-shadow: 0 1px 0 #ccc;
+  box-shadow: 0 1px 0 black;
   font-size: 1em;
   border-width: 0px;
 }
-.portforio_exeuclid_result_display:focus {
-  outline: 0;
+
+.portforio_exeuclid_calculator_button {
+  border: solid 1px black;
+  background-color: yellow;
+  padding: 0.5em;
+}
+
+.portforio_exeuclid_result_button {
+  border: solid 1px black;
+  background-color: yellow;
+  padding: 0.5em;
 }

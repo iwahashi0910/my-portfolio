@@ -57,7 +57,7 @@ const exeuclid = function (X, Y) {
 };
 
 CalculatorBotton.onclick = function () {
-  if (xValue.value != "" && yValue.value != "") {
+  if (xValue.value > 0 && yValue.value > 0) {
     ExeuclidResult.value = exeuclid(xValue.value, yValue.value);
   }
 };

@@ -1,14 +1,48 @@
-* {
-  box-sizing: border-box;
-}
 body {
-  margin: 0;
-  overflow: hidden;
+  background-image: url("https://www.rikkyo.ac.jp/christmas/qo9edr000000gbr5-img/qo9edr000000gbtl.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portforio {
+  height: 80vh;
+  width: 80vw;
+  border-radius: 40vw / 40vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portforio_profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portforio_profile_name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portforio_profile_name_ja {
+  font-size: 15vmin;
+}
+.portforio_profile_name_en {
+  font-size: 6vmin;
 }
 
 .portforio_exeuclid_calculator_display {
   height: 2em;
-  width: 10%;
+  width: 20%;
   padding: 4px;
   background-color: white;
   border-radius: 4px;
@@ -22,7 +56,7 @@ body {
 
 .portforio_exeuclid_result_display {
   height: 2em;
-  width: 15%;
+  width: 30%;
   padding: 4px;
   background-color: white;
   border-radius: 4px;

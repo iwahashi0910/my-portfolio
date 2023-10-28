@@ -11,8 +11,6 @@ body {
 .portforio {
   height: 90vh;
   width: 80vw;
-  border-radius: 40vw / 40vh;
-  background-color: rgba(255, 255, 255, 0.7);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,14 +32,25 @@ body {
 }
 
 .portforio_profile_name_ja {
-  font-size: 15vmin;
+  font-size: 10vmin;
+  color: white;
 }
 .portforio_profile_name_en {
-  font-size: 6vmin;
+  font-size: 3vmin;
+  color: white;
+}
+
+.portforio_profile_links_element {
+  font-size: 4vmin;
+  color: orangered;
+  justify-content: space-between;
 }
 
 .portforio_exeuclid {
-  border: solid 1px rgb(0, 0, 0);
+  height: 30vh;
+  width: 75vw;
+  border-radius: 40vw / 40vh;
+  background-color: rgba(255, 255, 255, 0.7);
   /* height: 20vmin;
   width: 25vw; */
   margin-top: 5vmin;
@@ -75,7 +84,7 @@ body {
 
 .portforio_exeuclid_calculator_display {
   height: 2em;
-  width: 70%;
+  width: 80%;
   padding: 4px;
   background-color: white;
   border-radius: 4px;

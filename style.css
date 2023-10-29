@@ -32,16 +32,17 @@ body {
 }
 
 .portforio_profile_name_ja {
-  font-size: 10vmin;
+  font-size: 10vh;
   color: white;
 }
 .portforio_profile_name_en {
-  font-size: 3vmin;
+  font-style: italic;
+  font-size: 3vh;
   color: white;
 }
 
 .portforio_profile_links_element {
-  font-size: 4vmin;
+  font-size: 3vh;
   color: orangered;
   justify-content: space-between;
 }
@@ -51,10 +52,8 @@ body {
   width: 75vw;
   border-radius: 40vw / 40vh;
   background-color: rgba(255, 255, 255, 0.7);
-  /* height: 20vmin;
-  width: 25vw; */
-  margin-top: 5vmin;
-  padding: 1vmin;
+  margin-top: 5vh;
+  padding: 1vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -62,29 +61,29 @@ body {
 
 .portforio_exeuclid_title {
   align-self: center;
-  font-size: 3vmin;
+  font-size: 3vh;
 }
 
 .portforio_exeuclid_calculator {
   display: flex;
   justify-content: space-around;
-  padding: 1vmin;
+  padding: 1vh;
 }
 
 .portforio_exeuclid_calculator_element {
   display: flex;
   justify-content: space-around;
-  padding: 1vmin;
+  padding: 1vh;
 }
 
 .portforio_exeuclid_result {
   align-self: center;
-  font-size: 3vmin;
+  font-size: 3vh;
 }
 
 .portforio_exeuclid_calculator_display {
   height: 2em;
-  width: 80%;
+  width: 15em;
   padding: 4px;
   background-color: white;
   border-radius: 4px;
@@ -95,7 +94,7 @@ body {
 
 .portforio_exeuclid_result_display {
   height: 2em;
-  width: 70%;
+  width: 15em;
   padding: 4px;
   background-color: white;
   border-radius: 4px;
@@ -107,11 +106,11 @@ body {
 .portforio_exeuclid_calculator_button {
   border: solid 1px black;
   background-color: yellow;
-  padding: 0.5em;
+  padding: 5px;
 }
 
 .portforio_exeuclid_result_button {
   border: solid 1px black;
-  background-color: yellow;
-  padding: 0.5em;
+  background-color: red;
+  padding: 5px;
 }

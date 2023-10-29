@@ -6,52 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <title>岩橋侑也のホームページ</title>
   </head>
   <body>
+    <header>
+      <div class="header-container">
+        <h2 class="page-title">My PortFolio</h2>
+        <nav class="header-nav">
+          <ul>
+            <li>
+              <a class="my-profile" href="#my-profile">My Profile</a>
+            </li>
+            <li>
+              <a class="my-favorite" href="#my-favorite">favorite team</a>
+            </li>
+            <li>
+              <a class="exeuclid-calculator" href="#exeuclid-calculator"
+                >Exeuclid Calculator</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="page-top">
+      <img
+        class="page-top-img"
+        src="https://www.rikkyo.ac.jp/christmas/qo9edr000000gbr5-img/qo9edr000000gbtl.jpg"
+      />
+    </div>
     <div class="portforio">
-      <div class="portforio_profile">
-        <div class="portforio_profile_name">
-          <div class="portforio_profile_name_ja">岩橋侑也</div>
-          <div class="portforio_profile_name_en">Iwahashi Yuya</div>
-        </div>
-        <div class="portforio_profile_links">
-          <a
-            href="https://www.rikkyo.ac.jp/"
-            class="portforio_profile_links_element"
-            >学校</a
-          >
-          <a href="https://geass.jp/" class="portforio_profile_links_element"
-            >好きなアニメ</a
-          >
+      <div class="my-profile" id="my-profile">
+        <div class="section-title">Profile</div>
+        <div class="profile-content">
+          <div class="my-face-img">
+            <img src="Iwahashi.jpg" alt="自分の写真" />
+          </div>
+          <div class="profile-detail">
+            <p class="profile-name">岩橋侑也</p>
+            <p>出身地：東京都</p>
+            <p>出身高校：世田谷学園高等学校</p>
+            <p>
+              大学：<a
+                href="https://www.rikkyo.ac.jp/"
+                class="portforio_profile_links_element"
+                >立教大学</a
+              >・理学部・数学科
+            </p>
+            <p>活動：プログラミング(勉強中)</p>
+          </div>
         </div>
       </div>
-      <div class="portforio_exeuclid">
-        <div class="portforio_exeuclid_title">
-          拡張ユークリッド互除法でaX + bY = c (X, Y ＞ 0)となる整数a, b,
-          cを求めてみよう！
-        </div>
-        <div class="portforio_exeuclid_calculator">
-          <div class="portforio_exeuclid_calculator_element">
-            <div>X =</div>
-            <input class="portforio_exeuclid_calculator_display" id="x-value" />
+      <div class="my-favorite" id="my-favorite">
+        <div class="section-title">favorite team</div>
+        <div class="favorite-content">
+          <div class="favorite-detail">
+            <p class="favorite-name">好きなメジャー球団</p>
+            <p>球団名：フィラデルフィア・フィリーズ</p>
+            <p>好きな選手：アレク・ボーム選手</p>
           </div>
-          <div class="portforio_exeuclid_calculator_element">
-            <div>Y =</div>
-            <input class="portforio_exeuclid_calculator_display" id="y-value" />
+          <div class="favorite-img">
+            <img
+              src="https://p4.wallpaperbetter.com/wallpaper/762/10/558/baseball-mlb-philadelphia-phillies-wallpaper-preview.jpg"
+              alt="球団の写真"
+            />
           </div>
-          <button
-            class="portforio_exeuclid_calculator_button"
-            id="calculator-botton"
-          >
-            計算
-          </button>
         </div>
-        <div class="portforio_exeuclid_result">
-          <input class="portforio_exeuclid_result_display" id="result" />
-          <button class="portforio_exeuclid_result_button" id="result-button">
-            リセット
-          </button>
+      </div>
+      <div class="exeuclid-calculator" id="exeuclid-calculator">
+        <div class="section-title">Exeuclid Calculator</div>
+        <div class="exeuclid-content">
+          <div class="portforio_exeuclid_title">
+            拡張ユークリッド互除法でaX + bY = c (X, Y ＞ 0)となる整数a, b,
+            cを求めてみよう！
+          </div>
+          <div class="portforio_exeuclid_calculator">
+            <div class="portforio_exeuclid_calculator_element">
+              <div>X =</div>
+              <input
+                class="portforio_exeuclid_calculator_display"
+                id="x-value"
+              />
+            </div>
+            <div class="portforio_exeuclid_calculator_element">
+              <div>Y =</div>
+              <input
+                class="portforio_exeuclid_calculator_display"
+                id="y-value"
+              />
+            </div>
+            <button
+              class="portforio_exeuclid_calculator_button"
+              id="calculator-botton"
+            >
+              計算
+            </button>
+          </div>
+          <div class="portforio_exeuclid_result">
+            <input class="portforio_exeuclid_result_display" id="result" />
+            <button class="portforio_exeuclid_result_button" id="result-button">
+              リセット
+            </button>
+          </div>
         </div>
       </div>
     </div>
